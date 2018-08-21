@@ -16,7 +16,7 @@ def main():
     sheet = wb['BACK UP']
     
     driver = webdriver.Chrome()
-    driver.get("https://docs.google.com/forms/d/e/1FAIpQLSeTThy67d3USQEbzdxhoknyNbBtEr2wU_W0Qo-0pZdgSePeLA/viewform")
+    driver.get("URL")
 
     for j in range(443,465):
         if sheet['E'+str(j)].value:
